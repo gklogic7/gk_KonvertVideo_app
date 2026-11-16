@@ -1,0 +1,6 @@
+{
+  "name": "Konvert Video",
+  "description": "Offline on-device FFmpeg audio and video converter optimized for tablets with Dark Obsidian Studio UI, tween animations, batch queue, built-in preview, and local conversion history.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

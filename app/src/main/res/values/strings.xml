@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">Konvert Video</string>
+
+    <!-- Navigation Destinations -->
+    <string name="nav_studio">Studio</string>
+    <string name="nav_queue">Queue</string>
+    <string name="nav_history">History</string>
+    <string name="nav_formats">Formats</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_credits">Credits</string>
+    <string name="nav_kvplayer">Kvplayer</string>
+    <string name="nav_kamaker">Kamaker</string>
+
+    <!-- Studio Screen -->
+    <string name="studio_title">Konvert Studio</string>
+    <string name="studio_subtitle">100% Offline FFmpeg Engine</string>
+    <string name="pick_video_gallery">Pick Video</string>
+    <string name="pick_any_media">Pick Audio / Any File</string>
+    <string name="add_more_files">Add Files</string>
+    <string name="clear_batch">Clear</string>
+    <string name="start_conversion">Convert Now</string>
+    <string name="queue_batch">Queue %1$d File(s)</string>
+    <string name="empty_studio_title">Drop into Offline Conversion</string>
+    <string name="empty_studio_desc">Select video or audio files directly from your device. Everything encodes locally via bundled FFmpeg with zero cloud uploads.</string>
+
+    <!-- Studio Sections -->
+    <string name="section_quick_presets">Quick Presets</string>
+    <string name="section_pro_controls">Pro Codec Controls</string>
+    <string name="section_command_workbench">Pro Workbench (FFmpeg CLI)</string>
+    <string name="sync_from_controls">Sync from Controls</string>
+    <string name="save_custom_preset">Save Preset</string>
+
+    <!-- Queue Screen -->
+    <string name="queue_title">Conversion Queue</string>
+    <string name="queue_empty_title">Queue is Idle</string>
+    <string name="queue_empty_desc">Add media files in Konvert Studio and tap Convert to watch live on-device FFmpeg telemetry here.</string>
+    <string name="cancel_job">Cancel</string>
+    <string name="clear_finished">Clear Finished</string>
+    <string name="view_logs">FFmpeg Logs</string>
+
+    <!-- History Screen -->
+    <string name="history_title">Conversion History</string>
+    <string name="history_empty_title">No Conversions Yet</string>
+    <string name="history_empty_desc">Completed audio and video exports appear here with compression stats, instant playback preview, and sharing.</string>
+    <string name="share_output">Share</string>
+    <string name="save_to_gallery">Save to Device</string>
+    <string name="reuse_settings">Reuse Config</string>
+    <string name="delete_record">Delete</string>
+
+    <!-- Formats Screen -->
+    <string name="formats_title">Formats &amp; Codecs</string>
+    <string name="formats_subtitle">Live On-Device FFmpeg Capabilities</string>
+    <string name="search_codecs_hint">Search x265, opus, theora, wavpack…</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Studio Settings</string>
+    <string name="settings_modes_header">Studio Interface Tiers</string>
+    <string name="settings_modes_desc">Toggle which conversion control layers appear in Konvert Studio.</string>
+    <string name="toggle_quick_presets">One-Tap Quick Presets</string>
+    <string name="toggle_quick_presets_desc">Show curated social, compact, and audio extraction cards</string>
+    <string name="toggle_pro_controls">Expandable Pro Codec Controls</string>
+    <string name="toggle_pro_controls_desc">Show container, codec, CRF/bitrate sliders, FPS, and artwork</string>
+    <string name="toggle_workbench">Full Pro Workbench (CLI Editor)</string>
+    <string name="toggle_workbench_desc">Show editable raw FFmpeg command pipeline and flag inspector</string>
+    <string name="settings_engine_header">Engine &amp; Output</string>
+    <string name="toggle_auto_gallery">Auto-Export to Movies / Music</string>
+    <string name="toggle_auto_gallery_desc">Automatically publish completed files to system MediaStore folders</string>
+    <string name="toggle_keep_screen_on">Keep Screen Awake During Batch</string>
+    <string name="toggle_keep_screen_on_desc">Prevent display sleep while inspecting live FFmpeg encoding</string>
+    <string name="settings_perf_header">Lightweight &amp; Speed</string>
+    <string name="settings_perf_desc">Optional resource-saving modes (all disabled by default).</string>
+    <string name="toggle_lightweight_engine">Lightweight Engine Mode</string>
+    <string name="toggle_lightweight_engine_desc">Use fast metadata probe on import and cap live log history to 25 lines</string>
+    <string name="toggle_low_overhead_ui">Low-Overhead UI &amp; Reduced Motion</string>
+    <string name="toggle_low_overhead_ui_desc">Simplify animated waveforms and throttle telemetry updates for faster response</string>
+    <string name="toggle_auto_prune_cache">Auto-Prune Internal Cache</string>
+    <string name="toggle_auto_prune_cache_desc">Remove temporary internal copies right after MediaStore gallery export</string>
+    <string name="settings_crop_header">Media Viewer Crop</string>
+    <string name="settings_crop_desc">Configure box crop region controls on the Studio media viewer (disabled by default).</string>
+    <string name="toggle_crop_overlay">Enable Box Crop Region</string>
+    <string name="toggle_crop_overlay_desc">Show Free, 1:1, 9:16, and 16:9 framing controls and apply FFmpeg crop on export</string>
+    <string name="toggle_inline_crop">Inline Viewer Crop Handles</string>
+    <string name="toggle_inline_crop_desc">Drag crop box and corner handles directly on the Studio video player</string>
+    <string name="toggle_fullscreen_crop">Full-Screen Crop Editor Modal</string>
+    <string name="toggle_fullscreen_crop_desc">Show expand button to open a dedicated full-screen crop dialog</string>
+    <string name="toggle_kv_precision_crop">Use Kvplayer in Precision Box Crop</string>
+    <string name="toggle_kv_precision_crop_desc">Open Precision Box Crop inside Kvplayer media viewer with a minimizable Crop, Logo &amp; Text panel (locks boxes when minimized so swipes control brightness/volume)</string>
+    <string name="toggle_kv_crop_full_hud">Full Kvplayer HUD in Crop Panel</string>
+    <string name="toggle_kv_crop_full_hud_desc">Show Mark In/Out A-B loop, playback speed pills, and gesture HUD inside the minimizable crop panel</string>
+    <string name="toggle_studio_mark_in_out">Studio Viewer Mark In &amp; Out</string>
+    <string name="toggle_studio_mark_in_out_desc">Show [In / Out] trim controls directly on the Konvert Studio video preview</string>
+
+    <!-- Credits Screen -->
+    <string name="credits_brand_title">kvect - Konvert video</string>
+    <string name="credits_subtitle">100% On-Device Audio &amp; Video Mastering Studio</string>
+
+    <!-- Kvplayer Screen -->
+    <string name="kvplayer_title">Kvplayer — All in One</string>
+    <string name="kvplayer_subtitle">Floating HUD • Swipe Gestures • PiP • Bg Audio • Subtitles</string>
+    <string name="kvplayer_notif_channel">Kvplayer Background Audio</string>
+    <string name="kvplayer_notif_desc">Keeps audio and video playback active in the background</string>
+    <string name="settings_kvplayer_header">Kvplayer HUD &amp; Controls</string>
+    <string name="settings_kvplayer_desc">Enable extra player tools on Kvplayer (all disabled by default).</string>
+    <string name="toggle_kv_fullscreen">Full-Screen Player Icon</string>
+    <string name="toggle_kv_fullscreen_desc">Show expand button for immersive edge-to-edge full-screen playback</string>
+    <string name="toggle_kv_screenshot">Screenshot (SS Shot) Button</string>
+    <string name="toggle_kv_screenshot_desc">Capture the current video frame as a PNG in Pictures/KonvertVideo</string>
+    <string name="toggle_kv_hide_hud_ui">Hide Volume &amp; Display UI Button</string>
+    <string name="toggle_kv_hide_hud_ui_desc">Show toggle icon on Kvplayer to hide the brightness and volume circles</string>
+    <string name="toggle_kv_mark_in_out">Mark In &amp; Mark Out Controls</string>
+    <string name="toggle_kv_mark_in_out_desc">Pin In/Out markers for A-B loop playback and send trims to Studio</string>
+    <string name="toggle_kv_floating">Floatable Whole Player</string>
+    <string name="toggle_kv_floating_desc">Allow detaching Kvplayer into a draggable floating window across tabs</string>
+    <string name="toggle_kv_hide_bottom_tiles">Hide Bottom Casting, PiP &amp; Bg Audio Tiles</string>
+    <string name="toggle_kv_hide_bottom_tiles_desc">Hide the bottom Casting, PIP Mode, and Bg Audio action cards on Kvplayer (can also be toggled inline)</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Media Conversion</string>
+    <string name="notif_channel_desc">Shows live progress of offline FFmpeg audio and video conversions</string>
+    <string name="notif_complete_channel_name">Batch Completion Alerts</string>
+    <string name="notif_complete_channel_desc">Plays a notification sound when a conversion batch finishes</string>
+    <string name="notif_complete_silent_channel_name">Silent Batch Completion</string>
+    <string name="notif_batch_complete_title">Batch Conversion Complete</string>
+    <string name="notif_batch_finished_issues_title">Batch Finished With Errors</string>
+    <string name="toggle_batch_finish_sound">Batch Finish Notification Sound</string>
+    <string name="toggle_batch_finish_sound_desc">Play a notification chime when all queued conversions complete</string>
+</resources>
